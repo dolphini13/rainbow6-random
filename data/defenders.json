@@ -1,0 +1,621 @@
+[
+    {
+        "name": "Smoke",
+        "icon": "/images/ops-icons/smoke.png",
+        "picture": "/images/ops-pics/smoke.png",
+        "primary":[
+            {
+                "name": "M590A1",
+                "type": "Shotgun",
+                "picture": "/images/primary/fmg9.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "FMG-9",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/FMG-9.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "Flash Hider",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "SMG-11",
+                "type": "Machine Pistol",
+                "picture": "/images/secondary/smg11.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Compensator",
+                        "Extended Barrel",
+                        "Flash Hider",
+                        "No Barrel"
+                    ],
+                    "grip": [
+                        "Vertical Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "P226 Mk25",
+                "type": "Handgun",
+                "picture": "/images/secondary/p226.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Deployable Shield",
+            "Barbed Wire"
+        ],
+        "armor": 2,
+        "speed": 2
+    },
+    {
+        "name": "Mute",
+        "icon": "/images/ops-icons/mute.png",
+        "picture": "/images/ops-pics/mute.png",
+        "primary":[
+            {
+                "name": "M590A1",
+                "type": "Shotgun",
+                "picture": "/images/primary/m590a1.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "MP5K",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/mp5k.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "Flash Hider",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "SMG-11",
+                "type": "Machine Pistol",
+                "picture": "/images/secondary/smg11.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Compensator",
+                        "Extended Barrel",
+                        "Flash Hider",
+                        "No Barrel"
+                    ],
+                    "grip": [
+                        "Vertical Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "P226 Mk25",
+                "type": "Handgun",
+                "picture": "/images/secondary/p226.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Nitro Cell",
+            "Bulletproof Camera"
+        ],
+        "armor": 2,
+        "speed": 2
+    },
+    {
+        "name": "Castle",
+        "icon": "/images/ops-icons/castle.png",
+        "picture": "/images/ops-pics/castle.png",
+        "primary":[
+            {
+                "name": "M1014",
+                "type": "Shotgun",
+                "picture": "/images/primary/m1014.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "UMP45",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/ump45.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "Flash Hider",
+                        "Extended Barrel",
+                        "No Barrel"
+                    ],
+                    "grip": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "Super Shorty",
+                "type": "Shotgun",
+                "picture": "/images/secondary/supershorty.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "No Sight"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "5.7 USG",
+                "type": "Handgun",
+                "picture": "/images/secondary/57.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Bulletproof Camera",
+            "Proximity Alarm"
+        ],
+        "armor": 2,
+        "speed": 2
+    },
+    {
+        "name": "Pulse",
+        "icon": "/images/ops-icons/pulse.png",
+        "picture": "/images/ops-pics/pulse.png",
+        "primary":[
+            {
+                "name": "M1014",
+                "type": "Shotgun",
+                "picture": "/images/primary/m1014.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "UMP45",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/ump45.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "Flash Hider",
+                        "Extended Barrel",
+                        "No Barrel"
+                    ],
+                    "grip": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "M45 MEUSOC",
+                "type": "Handgun",
+                "picture": "/images/secondary/m45.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "5.7 USG",
+                "type": "Handgun",
+                "picture": "/images/secondary/57.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Claymore",
+            "Stun Grenade"
+        ],
+        "armor": 1,
+        "speed": 3
+    },
+    {
+        "name": "Doc",
+        "icon": "/images/ops-icons/doc.png",
+        "picture": "/images/ops-pics/doc.png",
+        "primary":[
+            {
+                "name": "MP5",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/mp5.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "Flash Hider",
+                        "No Barrel"
+                    ],
+                    "grip": [
+                        "Vertical Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "P90",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/p90.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Scope 1.5x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "Flash Hider",
+                        "Extended Barrel",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "SG-CQB",
+                "type": "Shotgun",
+                "picture": "/images/primary/sg-cqb.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "grip": [
+                        "Vertical Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "LFP586",
+                "type": "Handgun",
+                "picture": "/images/secondary/lfp586.jpg",
+                "attachment":{
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "P9",
+                "type": "Handgun",
+                "picture": "/images/secondary/p9.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Hard Breach Charge",
+            "Smoke Grenade"
+        ],
+        "armor": 3,
+        "speed": 1
+    },
+    {
+        "name": "Rook",
+        "icon": "/images/ops-icons/rook.png",
+        "picture": "/images/ops-pics/rook.png",
+        "primary":[
+            {
+                "name": "MP5",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/mp5.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 2.0x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "Flash Hider",
+                        "No Barrel"
+                    ],
+                    "grip": [
+                        "Vertical Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "P90",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/p90.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Scope 1.5x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "Flash Hider",
+                        "Extended Barrel",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "SG-CQB",
+                "type": "Shotgun",
+                "picture": "/images/primary/sg-cqb.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "grip": [
+                        "Vertical Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "LFP586",
+                "type": "Handgun",
+                "picture": "/images/secondary/lfp586.jpg",
+                "attachment":{
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "P9",
+                "type": "Handgun",
+                "picture": "/images/secondary/p9.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Hard Breach Charge",
+            "Smoke Grenade"
+        ],
+        "armor": 3,
+        "speed": 1
+    }
+]

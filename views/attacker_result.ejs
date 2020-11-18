@@ -1,0 +1,36 @@
+<%- include('partials/header') %>
+<div class="container-fluid">
+    <div class="row op_info">
+        <div class="col-md-4">
+            <img src=<%= data.op_info.picture %> id="op_pic" />
+        </div>
+        <div class="col-md-8">
+            <img src=<%= data.op_info.icon %> />
+            <h1><%= data.op_info.name %></h1>
+            <h2>Primary:</h2>
+            <h3><%= data.primary.name %></h3>
+            <h3>Attachments:</h3>
+            <h4><% for(var i=0; i < data.primary_attachments.length; i++) {%>
+                <%= data.primary_attachments[i] %> 
+                <% if(i != data.primary_attachments.length-1 && Array.isArray(data.primary_attachments)) { %> | <% } %>
+            <% } %></h4>
+            <h2>Secondary:</h2>
+            <h3><%= data.secondary.name %></h3>
+            <h3>Attachments:</h3>
+            <h4><% for(i=0; i < data.secondary_attachments.length; i++) {%>
+                <%= data.secondary_attachments[i] %>
+                <% if(i != data.secondary_attachments.length-1 && Array.isArray(data.secondary_attachments)) { %> | <% } %>
+            <% } %></h4>
+            <h2>Gadget:</h2>
+            <h3><%= data.gadget %></h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <a href="/" id="go_home">
+                <span>GO BACK</span>
+            </a>
+        </div>
+    </div>
+</div>
+<%- include('partials/footer') %>
