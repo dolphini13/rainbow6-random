@@ -382,8 +382,8 @@
             }
         ],
         "gadget": [
-            "Claymore",
-            "Stun Grenade"
+            "Barbed Wire",
+            "Nitro Cell"
         ],
         "armor": 1,
         "speed": 3
@@ -497,8 +497,8 @@
             }
         ],
         "gadget": [
-            "Hard Breach Charge",
-            "Smoke Grenade"
+            "Barbed Wire",
+            "Bulletproof Camera"
         ],
         "armor": 3,
         "speed": 1
@@ -612,8 +612,8 @@
             }
         ],
         "gadget": [
-            "Hard Breach Charge",
-            "Smoke Grenade"
+            "Proximity Alarm",
+            "Impact Grenade"
         ],
         "armor": 3,
         "speed": 1
