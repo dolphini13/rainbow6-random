@@ -101,6 +101,9 @@ function op_info(op_name, flag) {
     }
     return data;
 }
-app.listen(3000 || process.env.PORT, function(){
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, function(){
     console.log("Serving from port 3000");
 });
