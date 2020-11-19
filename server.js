@@ -63,14 +63,12 @@ function op_info(op_name, flag) {
         }
     } else {
         for(let defender of defenders_data) {
-            console.log(defender.name)
             if(compare(defender.name, op_name)){
                 op_info = defender;
                 break;
             }
         }
     }
-    console.log(op_info.name);
     // random primary
     let random_primary = random_item(op_info.primary);
     let primary_attachments = [];
@@ -78,8 +76,6 @@ function op_info(op_name, flag) {
         random_attachment = random_item(random_primary.attachment[key]);
         primary_attachments.push(random_attachment);
     });
-    console.log(random_primary.name);
-    console.log(primary_attachments);
 
     // random secondary
     let random_secondary = random_item(op_info.secondary);
@@ -88,12 +84,9 @@ function op_info(op_name, flag) {
         random_attachment = random_item(random_secondary.attachment[key]);
         secondary_attachments.push(random_attachment);
     });
-    console.log(random_secondary.name);
-    console.log(secondary_attachments);
 
     // gadgets
     let random_gadget = random_item(op_info.gadget);
-    console.log(random_gadget + "\n");
     let data = {
         op_info: op_info,
         primary: random_primary,

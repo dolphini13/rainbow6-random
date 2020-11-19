@@ -1278,5 +1278,402 @@
         ],
         "armor": 1,
         "speed": 3
+    },
+    {
+        "name": "Jackal",
+        "icon": "/images/ops-icons/jackal.png",
+        "picture": "/images/ops-pics/jackal.png",
+        "primary":[
+            {
+                "name": "C7E",
+                "type": "Assault Rifle",
+                "picture": "/images/primary/c7e.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 2.0x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "grip":  [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "PDW9",
+                "type": "Submarine Gun",
+                "picture": "/images/primary/pdw9.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "grip":  [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "ITA12L",
+                "type": "Shotgun",
+                "picture": "/images/primary/ita12l.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "USP40",
+                "type": "Handgun",
+                "picture": "/images/secondary/usp40.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "ITA12S",
+                "type": "Handgun",
+                "picture": "/images/secondary/ita12s.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Claymore",
+            "Smoke Grenade"
+        ],
+        "armor": 2,
+        "speed": 2
+    },
+    {
+        "name": "Ying",
+        "icon": "/images/ops-icons/ying.png",
+        "picture": "/images/ops-pics/ying.png",
+        "primary":[
+            {
+                "name": "T-95 LSW",
+                "type": "Light Machine Gun",
+                "picture": "/images/primary/t-95.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "Scope 2.0x",
+                        "ACOG Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "grip":  [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "SIX12",
+                "type": "Shotgun",
+                "picture": "/images/primary/six12.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "Q-929",
+                "type": "Handgun",
+                "picture": "/images/secondary/q-929.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Hard Breach Charge",
+            "Smoke Grenade"
+        ],
+        "armor": 2,
+        "speed": 2
+    },
+    {
+        "name": "Zofia",
+        "icon": "/images/ops-icons/zofia.png",
+        "picture": "/images/ops-pics/zofia.png",
+        "primary":[
+            {
+                "name": "LMG-E",
+                "type": "Light Machine Gun",
+                "picture": "/images/primary/lmg-e.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "Scope 2.0x",
+                        "ACOG Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "grip":  [
+                        "Vertical Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "M762",
+                "type": "Assault Rifle",
+                "picture": "/images/primary/m762.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 2.0x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "grip":[
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "RG15",
+                "type": "Handgun",
+                "picture": "/images/secondary/rg15.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Breach Charge",
+            "Claymore"
+        ],
+        "armor": 2,
+        "speed": 2
+    },
+    {
+        "name": "Dokkaebi",
+        "icon": "/images/ops-icons/dokkaebi.png",
+        "picture": "/images/ops-pics/dokkaebi.png",
+        "primary":[
+            {
+                "name": "Mk 14 EBR",
+                "type": "Marksman Rifle",
+                "picture": "/images/primary/mk-14.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 3.0x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "grip":  [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "BOSG.12.2",
+                "type": "Shotgun",
+                "picture": "/images/primary/bosg.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "ACOG Sight",
+                        "No Sight"
+                    ],
+                    "grip":[
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "C75 Auto",
+                "type": "Machine Pistol",
+                "picture": "/images/secondary/c75.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "No Barrel"
+                    ]
+                }
+            },
+            {
+                "name": "SMG-12",
+                "type": "Machine Pistol",
+                "picture": "/images/secondary/smg-12.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "grip": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "No Barrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Smoke Grenade",
+            "Stun Grenade"
+        ],
+        "armor": 2,
+        "speed": 2
     }
 ]
