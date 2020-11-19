@@ -1112,5 +1112,170 @@
         ],
         "armor": 2,
         "speed": 2
+    },
+    {
+        "name": "Caveira",
+        "icon": "/images/ops-icons/caveira.png",
+        "picture": "/images/ops-pics/caveira.png",
+        "primary":[
+            {
+                "name": "M12",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/m12.jpg",
+                "attachment":{
+                    "sight": [
+                        "Holographic Sight",
+                        "Red Dot Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Muzzle Brake",
+                        "Extended Barrel",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "SPAS-15",
+                "type": "Shotgun",
+                "picture": "/images/primary/spas-15.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "'Lusion'",
+                "type": "Handgun",
+                "picture": "/images/secondary/luison.jpg",
+                "attachment":{
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Impact Grenade",
+            "Proximity Alarm"
+        ],
+        "armor": 1,
+        "speed": 3
+    },
+    {
+        "name": "Echo",
+        "icon": "/images/ops-icons/echo.png",
+        "picture": "/images/ops-pics/echo.png",
+        "primary":[
+            {
+                "name": "MP5SD",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/mp5sd.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "No Sight"
+                    ],
+                    "grip":  [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "SuperNova",
+                "type": "Shotgun",
+                "picture": "/images/primary/supernova.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "P229",
+                "type": "Handgun",
+                "picture": "/images/secondary/p229.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "Bearing 9",
+                "type": "Handgun",
+                "picture": "/images/secondary/bearing9.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Compensator",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Barbed Wire",
+            "Impact Grenade"
+        ],
+        "armor": 3,
+        "speed": 1
     }
 ]

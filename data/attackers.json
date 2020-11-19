@@ -1081,5 +1081,202 @@
         ],
         "armor": 2,
         "speed": 2
+    },
+    {
+        "name": "Capitao",
+        "icon": "/images/ops-icons/capitao.png",
+        "picture": "/images/ops-pics/capitao.png",
+        "primary":[
+            {
+                "name": "PARA-308",
+                "type": "Assault Rifle",
+                "picture": "/images/primary/para-308.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "Extended Barrel",
+                        "No Barrel"
+                    ],
+                    "grip":  [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "M249",
+                "type": "Light Machine Gun",
+                "picture": "/images/primary/m249.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "Scope 2.0x",
+                        "ACOG Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Flash Hider",
+                        "Compensator",
+                        "No Barrel"
+                    ],
+                    "grip":  [
+                        "Vertical Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "PRB92",
+                "type": "Handgun",
+                "picture": "/images/secondary/prb92.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Claymore",
+            "Hard Breach Charge"
+        ],
+        "armor": 1,
+        "speed": 3
+    },
+    {
+        "name": "Hibana",
+        "icon": "/images/ops-icons/hibana.png",
+        "picture": "/images/ops-pics/hibana.png",
+        "primary":[
+            {
+                "name": "Type-89",
+                "type": "Assault Rifle",
+                "picture": "/images/primary/type-89.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "Scope 2.5x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "grip":  [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "SuperNova",
+                "type": "Shotgun",
+                "picture": "/images/primary/supernova.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "P229",
+                "type": "Handgun",
+                "picture": "/images/secondary/p229.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "Bearing 9",
+                "type": "Handgun",
+                "picture": "/images/secondary/bearing9.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Compensator",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Stun Grenade",
+            "Breach Charge"
+        ],
+        "armor": 1,
+        "speed": 3
     }
 ]
