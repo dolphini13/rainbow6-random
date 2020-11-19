@@ -617,5 +617,500 @@
         ],
         "armor": 3,
         "speed": 1
+    },    
+    {
+        "name": "Kapkan",
+        "icon": "/images/ops-icons/kapkan.png",
+        "picture": "/images/ops-pics/kapkan.png",
+        "primary":[
+            {
+                "name": "9x19VSN",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/9x19vsn.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "Flash Hider",
+                        "Compensator",
+                        "No Barrel"
+                    ],
+                    "grip": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ], 
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "SASG-12",
+                "type": "Shotgun",
+                "picture": "/images/primary/sasg-12.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "No Barrel"
+                    ],
+                    "grip": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ], 
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "GSh-18",
+                "type": "Handgun",
+                "picture": "/images/secondary/gsh18.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Supressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ]
+                }
+            },
+            {
+                "name": "PMM",
+                "type": "Handgun",
+                "picture": "/images/secondary/pmm.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Impact Grenade",
+            "Nitro Cell"
+        ],
+        "armor": 2,
+        "speed": 2
+    },
+    {
+        "name": "Tachanka",
+        "icon": "/images/ops-icons/tachanka.png",
+        "picture": "/images/ops-pics/tachanka.png",
+        "primary":[
+            {
+                "name": "9x19VSN",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/9x19vsn.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "Flash Hider",
+                        "Compensator",
+                        "No Barrel"
+                    ],
+                    "grip": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ], 
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "DP-27",
+                "type": "Light Machine Gun",
+                "picture": "/images/primary/dp-27jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "GSh-18",
+                "type": "Handgun",
+                "picture": "/images/secondary/gsh18.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Supressor",
+                        "Muzzle Brake",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "PMM",
+                "type": "Handgun",
+                "picture": "/images/secondary/pmm.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Barbed Wire",
+            "Proximity Alarm"
+        ],
+        "armor": 3,
+        "speed": 1
+    },
+    {
+        "name": "Jager",
+        "icon": "/images/ops-icons/jager.png",
+        "picture": "/images/ops-pics/jager.png",
+        "primary":[
+            {
+                "name": "M870",
+                "type": "Shotgun",
+                "picture": "/images/primary/m870.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ], 
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "416-C Carbine",
+                "type": "Assault Rifle",
+                "picture": "/images/primary/416-c.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ], 
+                    "barrel":[
+                        "Supressor",
+                        "Flash Hider",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "Extended Barrel",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "P12",
+                "type": "Handgun",
+                "picture": "/images/secondary/p12.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Bulletproof Camera",
+            "Barbed Wire"
+        ],
+        "armor": 2,
+        "speed": 2
+    },
+    {
+        "name": "Bandit",
+        "icon": "/images/ops-icons/bandit.png",
+        "picture": "/images/ops-pics/bandit.png",
+        "primary":[
+            {
+                "name": "M870",
+                "type": "Shotgun",
+                "picture": "/images/primary/m870.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ], 
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "MP7",
+                "type": "Sub Machine gun",
+                "picture": "/images/primary/mp7.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "P12",
+                "type": "Handgun",
+                "picture": "/images/secondary/p12.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Barbed Wire",
+            "Nitro Cell"
+        ],
+        "armor": 1,
+        "speed": 3
+    },
+    {
+        "name": "Frost",
+        "icon": "/images/ops-icons/frost.png",
+        "picture": "/images/ops-pics/frost.png",
+        "primary":[
+            {
+                "name": "Super 90",
+                "type": "Assault Rifle",
+                "picture": "/images/primary/super-90.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "9mm C1",
+                "type": "Submarine Gun",
+                "picture": "/images/primary/9mm-c1.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "Scope 1.5x",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Extended Barrel",
+                        "No Barrel"
+                    ],
+                    "grip":[
+                        "Angled Grip",
+                        "No Grip"  
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "Mk1 9mm",
+                "type": "Handgun",
+                "picture": "/images/secondary/9mm.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "ITA12S",
+                "type": "Handgun",
+                "picture": "/images/secondary/ita12s.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Bulletproof Camera",
+            "Deployable Shield"
+        ],
+        "armor": 2,
+        "speed": 2
+    },
+    {
+        "name": "Valkyrie",
+        "icon": "/images/ops-icons/valkyrie.png",
+        "picture": "/images/ops-pics/valkyrie.png",
+        "primary":[
+            {
+                "name": "MPX",
+                "type": "Submachine Gun",
+                "picture": "/images/primary/mpx.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "barrel": [
+                        "Suppressor",
+                        "Flash Hider",
+                        "Compensator",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "grip":  [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "No Grip"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            },
+            {
+                "name": "SPAS-12",
+                "type": "Shotgun",
+                "picture": "/images/primary/spas-12.jpg",
+                "attachment":{
+                    "sight": [
+                        "Red Dot Sight",
+                        "Holographic Sight",
+                        "Reflex Sight",
+                        "No Sight"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "secondary":[
+            {
+                "name": "D-50",
+                "type": "Handgun",
+                "picture": "/images/secondary/d-50.jpg",
+                "attachment":{
+                    "barrel": [
+                        "Suppressor",
+                        "Muzzle Brake",
+                        "No Barrel"
+                    ],
+                    "underbarrel": [
+                        "Laser",
+                        "No Underbarrel"
+                    ]
+                }
+            }
+        ],
+        "gadget": [
+            "Deployable Shield",
+            "Nitro Cell"
+        ],
+        "armor": 2,
+        "speed": 2
     }
 ]

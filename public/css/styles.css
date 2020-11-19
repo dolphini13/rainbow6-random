@@ -14,6 +14,11 @@ body {
     font-size: 44px;
 }
 
+.icon_container img{
+    height: 125px;
+    width: 125px;
+}
+
 #attackers a{
     color:white;
     font-size: 44px;
@@ -57,9 +62,6 @@ label {
     filter: grayscale(100%);
 }
 
-label:hover {
-    filter: grayscale(0);
-}
 input[type="checkbox"]:checked + label {
     filter: grayscale(0);
 }

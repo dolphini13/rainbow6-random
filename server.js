@@ -20,6 +20,7 @@ app.get("/test", function(req, res){
 });
 
 app.post("/attacker_result", function(req, res){
+    if(!req.body.attackers) return res.render("home");
     let attackers = req.body.attackers;
     let random_op = random_item(attackers);
     let data = op_info(random_op, "attack");
@@ -27,6 +28,7 @@ app.post("/attacker_result", function(req, res){
 });
 
 app.post("/defender_result", function(req, res){
+    if(!req.body.defenders) return res.render("home");
     let defenders = req.body.defenders;
     let random_op = random_item(defenders);
     let data = op_info(random_op, "defend");
@@ -61,6 +63,7 @@ function op_info(op_name, flag) {
         }
     } else {
         for(let defender of defenders_data) {
+            console.log(defender.name)
             if(compare(defender.name, op_name)){
                 op_info = defender;
                 break;
