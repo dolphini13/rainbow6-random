@@ -5,6 +5,11 @@ body {
     background-size: 100% 100%;
 }
 
+.container-fluid {
+    max-width: 1700px;
+    min-width: 900px;
+}
+
 #attackers{
     text-align: center;
 }
@@ -59,7 +64,7 @@ input[type=checkbox] {
 
 label {
     cursor: pointer;
-    filter: grayscale(100%);
+    filter: brightness(50%);
 }
 
 input[type="checkbox"]:checked + label {
