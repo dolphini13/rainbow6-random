@@ -14,13 +14,33 @@ body {
     font-size: 44px;
 }
 
+#attackers a{
+    color:white;
+    font-size: 44px;
+    text-decoration: none;
+}
+
 #defenders{
     text-align: center;
 }
 
-#defenders span{
+#defenders a{
     color: white;
     font-size: 44px;
+    text-decoration: none;
+}
+
+#attackers a:hover {
+    color: #dbdbdb;
+}
+
+#defenders a:hover {
+    color: #dbdbdb;
+}
+
+.a-align {
+    vertical-align: middle;
+    margin-bottom: .20em;
 }
 
 .img-valign {
@@ -30,44 +50,6 @@ body {
 
 input[type=checkbox] {
     display:none;
-    }
-     
-input#thing1[type=checkbox] + label
-{
-    background-image: url("../images/ops-icons/thermite.png");
-    background-repeat: no-repeat;
-    border-color: white;
-    border-style: solid;
-    height: 200px;
-    width: 200px;
-    display:inline-block;
-    padding: 0 0 0 0px;
-}
-
-input#thing1[type=checkbox]:checked + label
-{
-    border-color: red;
-    border-style: solid;
-    height: 50px;
-    width: 50px;
-    display:inline-block;
-    padding: 0 0 0 0px;
-}
-
-input#thing2[type=checkbox] + img
-{
-    border-color: white;
-    border-style: solid;
-}
-
-input#thing2[type=checkbox]:checked + img
-{
-    border-color: red;
-    border-style: solid;
-    height: 50px;
-    width: 50px;
-    display:inline-block;
-    padding: 0 0 0 0px;
 }
 
 label {
