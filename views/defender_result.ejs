@@ -1,36 +1,36 @@
 <%- include('partials/header') %>
-<div class="container-fluid">
+<div class="container-fluid main">
     <div class="row op_info">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <img src=<%= data.op_info.picture %> id="op_pic" />
         </div>
-        <div class="col-md-8 icon_container">
+        <div class="col-md-6 icon_container info_container">
             <img src=<%= data.op_info.icon %> />
-            <h1><%= data.op_info.name %></h1>
-            <h2>Primary:</h2>
-            <h3><%= data.primary.name %></h3>
-            <h3>Attachments:</h3>
-            <h4><% for(var i=0; i < data.primary_attachments.length; i++) {%>
-                <%= data.primary_attachments[i] %> 
-                <% if(i != data.primary_attachments.length-1 && Array.isArray(data.primary_attachments)) { %> | <% } %>
-            <% } %></h4>
-            <h2>Secondary:</h2>
-            <h3><%= data.secondary.name %></h3>
-            <h3>Attachments:</h3>
-            <h4><% for(i=0; i < data.secondary_attachments.length; i++) {%>
-                <%= data.secondary_attachments[i] %>
-                <% if(i != data.secondary_attachments.length-1 && Array.isArray(data.secondary_attachments)) { %> | <% } %>
-            <% } %></h4>
-            <h2>Gadget:</h2>
-            <h3><%= data.gadget %></h3>
+            <div class="op_text">
+                <h1><%= data.op_info.name %></h1>
+                <h2>Primary:</h2>
+                <h3><%= data.primary.name %></h3>
+                <h3>Attachments:</h3>
+                <h4><% for(var i=0; i < data.primary_attachments.length; i++) {%>
+                    <%= data.primary_attachments[i] %> 
+                    <% if(i != data.primary_attachments.length-1 && Array.isArray(data.primary_attachments)) { %> | <% } %>
+                <% } %></h4>
+                <h2>Secondary:</h2>
+                <h3><%= data.secondary.name %></h3>
+                <h3>Attachments:</h3>
+                <h4><% for(i=0; i < data.secondary_attachments.length; i++) {%>
+                    <%= data.secondary_attachments[i] %>
+                    <% if(i != data.secondary_attachments.length-1 && Array.isArray(data.secondary_attachments)) { %> | <% } %>
+                <% } %></h4>
+                <h2>Gadget:</h2>
+                <h3><%= data.gadget %></h3>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <a href="#" id="go_home" onclick="goBack()">
-                <span>GO BACK</span>
-            </a>
-        </div>
+    <div id="go_home">
+        <a href="#" onclick="goBack()">
+            <i class="fas fa-home"></i>
+        </a>
     </div>
 </div>
 <%- include('partials/footer') %>

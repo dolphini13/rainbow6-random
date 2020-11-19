@@ -1,75 +1,73 @@
-<div class="col-md-6" id="defenders">
-    <div>
-        <form name="defenderForm" method="post" action="/defender_result">
-            <a href="#" onclick="defenderForm.submit()"><img class="a-align" src="/images/R6Sdef.png" alt="defenders" />RANDOM DEFENDERS</a>
-            <div class="icon_container">
-                <input type="checkbox" checked="checked" name='defenders[]' id="smoke" value="smoke" />
-                <label for="smoke"><img class="img-valign" src="/images/ops-icons/smoke.svg" alt="smoke" title="Smoke"/></label> 
-                <input type="checkbox" checked="checked" name='defenders' id="mute" value="mute"/>
-                <label for="mute"><img class="img-valign" src="/images/ops-icons/mute.svg" alt="mute"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="castle" value="castle" title="Castle"/>
-                <label for="castle"><img class="img-valign" src="/images/ops-icons/castle.svg" alt="castle"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="pulse" value="pulse"/>
-                <label for="pulse"><img class="img-valign" src="/images/ops-icons/pulse.svg" alt="pulse" title="Pulse"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="doc" value="doc"/>
-                <label for="doc"><img class="img-valign" src="/images/ops-icons/doc.svg" alt="doc" title="Doc"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="rook" value="rook"/>
-                <label for="rook"><img class="img-valign" src="/images/ops-icons/rook.svg" alt="rook" title="Rook"/></label> 
-            </div>
-            <div class="icon_container">
-                <input type="checkbox" checked="checked" name='defenders[]' id="kapkan" value="kapkan"/>
-                <label for="kapkan"><img class="img-valign" src="/images/ops-icons/kapkan.svg" alt="kapkan" title="Kapkan"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="tachanka" value="tachanka"/>
-                <label for="tachanka"><img class="img-valign" src="/images/ops-icons/tachanka.svg" alt="tachanka" title="Tachanka"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="jager" value="jager"/>
-                <label for="jager"><img class="img-valign" src="/images/ops-icons/jager.svg" alt="jager" title="Jager"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="bandit" value="bandit"/>
-                <label for="bandit"><img class="img-valign" src="/images/ops-icons/bandit.svg" alt="bandit" title="Bandit"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="frost" value="frost"/>
-                <label for="frost"><img class="img-valign" src="/images/ops-icons/frost.svg" alt="frost" title="Frost"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="valkyrie" value="valkyrie"/>
-                <label for="valkyrie"><img class="img-valign" src="/images/ops-icons/valkyrie.svg" alt="valkyrie" title="Valkyrie"/></label> 
-            </div>
-            <div class="icon_container">
-                <input type="checkbox" checked="checked" name='defenders[]' id="caveira" value="caveira"/>
-                <label for="caveira"><img class="img-valign" src="/images/ops-icons/caveira.svg" alt="caveira" title="Caveira"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="echo" value="echo"/>
-                <label for="echo"><img class="img-valign" src="/images/ops-icons/echo.svg" alt="echo" title="Echo"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="mira" value="mira"/>
-                <label for="mira"><img class="img-valign" src="/images/ops-icons/mira.svg" alt="mira" title="Mira"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="lesion" value="lesion"/>
-                <label for="lesion"><img class="img-valign" src="/images/ops-icons/lesion.svg" alt="lesion" title="Lesion"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="ela" value="ela"/>
-                <label for="ela"><img class="img-valign" src="/images/ops-icons/ela.svg" alt="ela" title="Ela"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="vigil" value="vigil"/>
-                <label for="vigil"><img class="img-valign" src="/images/ops-icons/vigil.svg" alt="vigil" title="Vigil"/></label> 
-            </div>
-            <div class="icon_container">
-                <input type="checkbox" checked="checked" name='defenders[]' id="maestro" value="maestro"/>
-                <label for="maestro"><img class="img-valign" src="/images/ops-icons/maestro.svg" alt="maestro" title="Maestro"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="alibi" value="alibi"/>
-                <label for="alibi"><img class="img-valign" src="/images/ops-icons/alibi.svg" alt="alibi" title="Alibi"/></label>
-                <input type="checkbox" checked="checked" name='defenders[]' id="clash" value="clash"/>
-                <label for="clash"><img class="img-valign" src="/images/ops-icons/clash.svg" alt="clash" title="Clash"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="kaid" value="kaid"/>
-                <label for="kaid"><img class="img-valign" src="/images/ops-icons/kaid.svg" alt="kaid" title="Kaid"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="mozzie" value="mozzie"/>
-                <label for="mozzie"><img class="img-valign" src="/images/ops-icons/mozzie.svg" alt="mozzie" title="Mozzie"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="warden" value="warden"/>
-                <label for="warden"><img class="img-valign" src="/images/ops-icons/warden.svg" alt="warden" title="Warden"/></label> 
-            </div>
-            <div class="icon_container">
-                <input type="checkbox" checked="checked" name='defenders[]' id="goyo" value="goyo"/>
-                <label for="goyo"><img class="img-valign" src="/images/ops-icons/goyo.svg" alt="goyo" title="Goyo"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="wamai" value="wamai"/>
-                <label for="wamai"><img class="img-valign" src="/images/ops-icons/wamai.svg" alt="wamai" title="Wamai"/></label>
-                <input type="checkbox" checked="checked" name='defenders[]' id="oryx" value="oryx"/>
-                <label for="oryx"><img class="img-valign" src="/images/ops-icons/oryx.svg" alt="oryx" title="Oryx"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="melusi" value="melusi"/>
-                <label for="melusi"><img class="img-valign" src="/images/ops-icons/melusi.svg" alt="melusi" title="Melusi"/></label> 
-                <input type="checkbox" checked="checked" name='defenders[]' id="aruni" value="aruni"/>
-                <label for="aruni"><img class="img-valign" src="/images/ops-icons/aruni.svg" alt="aruni" title="Aruni"/></label> 
-            </div>
-        </form>
-    </div>
+<div class="col-md-6 main-content" id="defenders">
+    <form name="defenderForm" method="post" action="/defender_result">
+        <a href="#" onclick="defenderForm.submit()"><img class="a-align" src="/images/R6Sdef.png" alt="defenders" />RANDOM DEFENDERS</a>
+        <div class="icon_container">
+            <input type="checkbox" checked="checked" name='defenders[]' id="smoke" value="smoke" />
+            <label for="smoke"><img class="img-valign" src="/images/ops-icons/smoke.svg" alt="smoke" title="Smoke"/></label> 
+            <input type="checkbox" checked="checked" name='defenders' id="mute" value="mute"/>
+            <label for="mute"><img class="img-valign" src="/images/ops-icons/mute.svg" alt="mute"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="castle" value="castle" title="Castle"/>
+            <label for="castle"><img class="img-valign" src="/images/ops-icons/castle.svg" alt="castle"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="pulse" value="pulse"/>
+            <label for="pulse"><img class="img-valign" src="/images/ops-icons/pulse.svg" alt="pulse" title="Pulse"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="doc" value="doc"/>
+            <label for="doc"><img class="img-valign" src="/images/ops-icons/doc.svg" alt="doc" title="Doc"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="rook" value="rook"/>
+            <label for="rook"><img class="img-valign" src="/images/ops-icons/rook.svg" alt="rook" title="Rook"/></label> 
+        </div>
+        <div class="icon_container">
+            <input type="checkbox" checked="checked" name='defenders[]' id="kapkan" value="kapkan"/>
+            <label for="kapkan"><img class="img-valign" src="/images/ops-icons/kapkan.svg" alt="kapkan" title="Kapkan"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="tachanka" value="tachanka"/>
+            <label for="tachanka"><img class="img-valign" src="/images/ops-icons/tachanka.svg" alt="tachanka" title="Tachanka"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="jager" value="jager"/>
+            <label for="jager"><img class="img-valign" src="/images/ops-icons/jager.svg" alt="jager" title="Jager"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="bandit" value="bandit"/>
+            <label for="bandit"><img class="img-valign" src="/images/ops-icons/bandit.svg" alt="bandit" title="Bandit"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="frost" value="frost"/>
+            <label for="frost"><img class="img-valign" src="/images/ops-icons/frost.svg" alt="frost" title="Frost"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="valkyrie" value="valkyrie"/>
+            <label for="valkyrie"><img class="img-valign" src="/images/ops-icons/valkyrie.svg" alt="valkyrie" title="Valkyrie"/></label> 
+        </div>
+        <div class="icon_container">
+            <input type="checkbox" checked="checked" name='defenders[]' id="caveira" value="caveira"/>
+            <label for="caveira"><img class="img-valign" src="/images/ops-icons/caveira.svg" alt="caveira" title="Caveira"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="echo" value="echo"/>
+            <label for="echo"><img class="img-valign" src="/images/ops-icons/echo.svg" alt="echo" title="Echo"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="mira" value="mira"/>
+            <label for="mira"><img class="img-valign" src="/images/ops-icons/mira.svg" alt="mira" title="Mira"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="lesion" value="lesion"/>
+            <label for="lesion"><img class="img-valign" src="/images/ops-icons/lesion.svg" alt="lesion" title="Lesion"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="ela" value="ela"/>
+            <label for="ela"><img class="img-valign" src="/images/ops-icons/ela.svg" alt="ela" title="Ela"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="vigil" value="vigil"/>
+            <label for="vigil"><img class="img-valign" src="/images/ops-icons/vigil.svg" alt="vigil" title="Vigil"/></label> 
+        </div>
+        <div class="icon_container">
+            <input type="checkbox" checked="checked" name='defenders[]' id="maestro" value="maestro"/>
+            <label for="maestro"><img class="img-valign" src="/images/ops-icons/maestro.svg" alt="maestro" title="Maestro"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="alibi" value="alibi"/>
+            <label for="alibi"><img class="img-valign" src="/images/ops-icons/alibi.svg" alt="alibi" title="Alibi"/></label>
+            <input type="checkbox" checked="checked" name='defenders[]' id="clash" value="clash"/>
+            <label for="clash"><img class="img-valign" src="/images/ops-icons/clash.svg" alt="clash" title="Clash"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="kaid" value="kaid"/>
+            <label for="kaid"><img class="img-valign" src="/images/ops-icons/kaid.svg" alt="kaid" title="Kaid"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="mozzie" value="mozzie"/>
+            <label for="mozzie"><img class="img-valign" src="/images/ops-icons/mozzie.svg" alt="mozzie" title="Mozzie"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="warden" value="warden"/>
+            <label for="warden"><img class="img-valign" src="/images/ops-icons/warden.svg" alt="warden" title="Warden"/></label> 
+        </div>
+        <div class="icon_container">
+            <input type="checkbox" checked="checked" name='defenders[]' id="goyo" value="goyo"/>
+            <label for="goyo"><img class="img-valign" src="/images/ops-icons/goyo.svg" alt="goyo" title="Goyo"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="wamai" value="wamai"/>
+            <label for="wamai"><img class="img-valign" src="/images/ops-icons/wamai.svg" alt="wamai" title="Wamai"/></label>
+            <input type="checkbox" checked="checked" name='defenders[]' id="oryx" value="oryx"/>
+            <label for="oryx"><img class="img-valign" src="/images/ops-icons/oryx.svg" alt="oryx" title="Oryx"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="melusi" value="melusi"/>
+            <label for="melusi"><img class="img-valign" src="/images/ops-icons/melusi.svg" alt="melusi" title="Melusi"/></label> 
+            <input type="checkbox" checked="checked" name='defenders[]' id="aruni" value="aruni"/>
+            <label for="aruni"><img class="img-valign" src="/images/ops-icons/aruni.svg" alt="aruni" title="Aruni"/></label> 
+        </div>
+    </form>
 </div>
