@@ -801,7 +801,7 @@
     },
     {
         "name": "Jager",
-        "icon": "/images/ops-icons/jager.png",
+        "icon": "/images/ops-icons/jager.svg",
         "picture": "/images/ops-pics/jager.png",
         "primary":[
             {
